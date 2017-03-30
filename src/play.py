@@ -3,6 +3,7 @@ choices = {'r':'rock', 'p': 'paper', 's':'scissors'}
 rules = {'r': ['s'], 's': ['p'], 'p': ['r']}
 
 
+
 def play():
     print "choices ", choices
     print "rules ", rules
